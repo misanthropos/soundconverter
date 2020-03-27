@@ -442,6 +442,7 @@ class PreferencesDialog(GladeWindow):
         ('%(album-artist)s/%(album)s', _('artist/album')),
         ('%(album-artist)s-%(album)s', _('artist-album')),
         ('%(album-artist)s - %(album)s', _('artist - album')),
+        ('%(album)s-%(album-artist)s', _('album - album-artist')),
     ]
 
     sensitive_names = ['vorbis_quality', 'choose_folder', 'create_subfolders',
